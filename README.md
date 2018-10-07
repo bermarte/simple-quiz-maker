@@ -1,5 +1,5 @@
 # simple-quiz-maker
-Quiz maker is an easy app in PHP to create very simple multiple choice type quizzes.
+***Quiz maker*** is an easy app in PHP to create very simple multiple choice type quizzes.
 The coach can create a number of questions and provide multiple answers, of which only one being true. At the end he/she can provide a percentage necessary to pass the test; a file to be uploaded to a web server will be created.
-
-Check out readme_files/readme.pdf
+<!-- link -->
+Check out [readme.pdf](https://rawgit.com/bermarte/simple-quiz-maker/master/readme_files/readme.pdf "readme")
