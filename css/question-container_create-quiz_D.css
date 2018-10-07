@@ -1,0 +1,137 @@
+*{
+    padding: 0;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    /*white-space:nowrap;*/
+}
+/*
+id container
+id questions-container
+class class-container
+*/
+.class-container{
+    background-color: #d9b3c0;
+    padding: 60px;
+    text-align: center;
+    border-radius: 25px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2); 
+    
+}
+#container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  background-image: url('../img/background.png');
+  background-repeat:repeat;
+  background-position: center;
+  background-size: cover;
+}
+#questions-container{
+    width: 800px;
+    height: 550px;
+    overflow-y: auto;
+}
+.Choices{
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+.labels, .toLeft{
+  display: block;
+  text-align: left;
+}
+.toRight{
+  display: block;
+  text-align: right;
+  background-color: red;
+}
+/* insert bermarte*/
+.pText{
+    text-align: justify;
+}
+
+/* scrollbar */
+
+::-webkit-scrollbar {
+    width: 20px;
+}
+
+::-webkit-scrollbar-track {
+    
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+    border-radius: 10px;
+    border-radius: 125px;
+    background: #a5a1a3;
+    
+}
+
+::-webkit-scrollbar-thumb {
+    height: 30px;
+    border-radius: 10px;
+    background: #ba8597;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+}
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #de82a2; 
+} 
+/* radio buttons */
+/* http://jsfiddle.net/xykPT/ */
+div.options > label > input {
+    visibility: hidden;
+    margin: -20px;/* add bermarte */
+    float: right;/* add bermarte */
+}
+div.options > label {
+   display: block;
+   margin: 0 0 0 -100px;
+   /*padding: 0 0 20px 0;*/
+   padding: 0 0 0 110px;
+   height: 20px;
+   width: 150px;
+}
+div.options > label > img {
+   display: inline-block;
+   padding: 0px;
+   height: 38px;
+   width: 38px;
+   border-radius: 7px;
+   background: white;
+}
+ div.options > label > input:checked +img {
+   background: url(../img/onebit_34.png);
+   background-repeat: no-repeat;
+   background-position: center center;
+   background-size: 30px 30px;
+   background-color: white;
+}
+/* text for radio buttons (randomness) */
+
+/*
+.yes-no{
+  position: relative;
+  top: 0px;
+  left: -400px;
+  background-color: red;
+  color: red;
+}
+*/
+.span{
+  display: block;
+  padding-top: 10px;
+}
+/* link color for file created*/
+a.file_link{
+    color: green;
+}
+a.file_link:visited {
+    color: green;
+}
+a.file_link:hover {
+    color: #0f600f;
+}
+
+

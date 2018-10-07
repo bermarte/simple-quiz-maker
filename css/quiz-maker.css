@@ -1,0 +1,34 @@
+*{
+    padding: 0;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+html,body{
+    background-color: red;
+    height: 100%;
+    white-space:nowrap;
+}
+.class-container{
+    background-color: #d9b3c0;
+    padding: 60px;
+    text-align: center;
+    border-radius: 25px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2); 
+    
+}
+#container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  /* https://pixabay.com/it/colore-triangolo-geometrico-2174065/ */
+  background-image: url('../img/background.png');
+  background-repeat:repeat;
+  background-position: center;
+  background-size: cover;
+  overflow: hidden;
+}
+#app-container{
+    width: 600px;
+    height: 500px;
+}

@@ -1,0 +1,9 @@
+.warning{
+	background-color:#fcc0c0;
+    	padding: 10px;
+    	border-radius: 15px;
+    	font-size: 18px;
+}
+#warning-text{
+	font-size: 22px;
+}

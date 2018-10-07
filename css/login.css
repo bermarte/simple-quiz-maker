@@ -1,0 +1,66 @@
+*{
+    padding: 0;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    white-space:wrap;
+}
+.presentation{
+    width: 400px;
+    max-width: 400px;
+    text-align: justify;
+}
+
+#container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  /* 
+    https://pixabay.com/it/colore-triangolo-geometrico-2174065/
+  */
+  background-image: url('../img/background.png');
+  background-repeat:repeat;
+  background-position: center;
+  background-size: cover;
+  overflow: hidden;
+}
+.class-container{
+    background-color: #d9b3c0;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    text-align: center;
+    border-radius: 25px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2); 
+    
+}
+#login-container{
+    width: 400px;
+    height: 400px;
+}
+#app-container{
+    width: 600px;
+    height: 500px;
+}
+#container-data{
+    padding-top: 10px;
+    width: 750px;
+    height: 600px;
+    min-height: 600px;
+    max-height: 600px;
+}
+#unavailable-container{
+    width: 500px;
+    height: 200px;
+}
+#exception-container{
+   width: 720px;
+   height: 620px;
+   text-align: left;
+   white-space:normal;
+   overflow-y: auto;
+}
