@@ -3,8 +3,8 @@ $host = 'localhost';
 $port = 8889;
 $db = 'simple_quiz';
 $location = 'mysql:host='.$host.';port='.$port.';dbname='.$db.';';
-$user = 'root';
-$password = 'root';
+$user = 'user';
+$password = 'password';
 $pdo = new PDO($location,$user, $password);
 $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
