@@ -194,10 +194,10 @@ try {
 
 			$mail = new PHPMailer;
 			$mail->isSMTP(); // Set mailer to use SMTP
-			$mail->Host = 'mail.smtp2go.com'; // Specify main and backup SMTP servers
+			$mail->Host = 'host'; // Specify main and backup SMTP servers
 			$mail->SMTPAuth = true; // Enable SMTP authentication
-			$mail->Username = 'bermarte@hotmail.com'; // SMTP username
-			$mail->Password = '0phY7cOPKRWJ'; // SMTP password
+			$mail->Username = 'username'; // SMTP username
+			$mail->Password = 'password'; // SMTP password
 			$mail->Port = 2525; // TCP port to connect to
 			$mail->setFrom('php_script@localhost.com', 'phpscript');
 			$mail->addAddress($email, $nm . ' ' . $fn); // Add a recipient
